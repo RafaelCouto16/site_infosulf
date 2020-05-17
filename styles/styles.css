@@ -1,0 +1,57 @@
+.navStyles, .LinkA, .blockBlue-title, footer span { font-family: Arial, Helvetica, sans-serif; }
+
+.blockBlue-text, .textLocation { font-family: "clibri", "verdana", "candara", "sans-serif"; }
+
+.blockBlue, .carouselBlock { background-color: #0454BD; }
+
+.navStyles, .blockLightBlue, .linkBlock a, footer { background-color: #2992E3; }
+
+.contact_locationIntroTitle, .textLocation { color: #0454BD; }
+
+.LinkA, .blockBlue-title, .blockBlue-text, footer span { color: #ffffff; }
+
+.blockText, .carouselSlideShow, .locationImage, .iframeLocation { width: 100%; }
+
+.linkBlock a { border-radius: 50px; padding: 10px 20px; color: #ffffff; font-size: 20px; font-family: "candara"; }
+.linkBlock a:hover { opacity: 0.5; }
+
+.navButton { border: 0; }
+
+.LinkA { font-size: 18px; }
+
+.LinkA:hover { color: #1a1a1a; }
+
+.blockBlue-title { font-size: 25px; }
+
+.blockBlue-text { font-size: 17px; }
+
+.contact_locationIntroImage { width: 280px; }
+
+.contact_locationIntroTitle { font-size: 25px; }
+
+.imageBlockContact { width: 50px; }
+
+.blockGlobalContact { padding: 20px 0; }
+
+.textLocation { font-size: 17px; }
+
+.iframeLocation { border: 4px solid #0454BD; height: 500px; }
+
+.linkBlock { margin-top: 40px; }
+
+footer { margin-top: 20px; padding: 20px; }
+
+footer span { font-size: 15px; }
+
+footer picture { margin-top: 20px; }
+
+footer picture img { width: 60px; }
+
+@media screen and (min-width: 988px) { .blockText { width: 20%; }
+  .blockBluePicture { margin: 0 100px; }
+  .carouselSlideShow { width: 75%; }
+  .contact_locationIntroBlockTitle { margin-left: 100px; }
+  .iframeLocation { width: 98%; height: 1000px; margin: 0 auto; }
+  .locationImage { width: 500px; } }
+
+/*# sourceMappingURL=styles.css.map */

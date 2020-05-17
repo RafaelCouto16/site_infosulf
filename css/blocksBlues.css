@@ -1,0 +1,26 @@
+.blockBlue { background-color: #0454BD; color: #ffffff; }
+
+.blockLightBlue { background-color: #2992e3; color: #ffffff; }
+
+.blockBlue, .blockLightBlue { margin-top: 20px; }
+.blockBlue div, .blockLightBlue div { display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 20px 0; }
+.blockBlue div div, .blockLightBlue div div { width: 40%; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: none; color: #ffffff; }
+.blockBlue div div h3, .blockLightBlue div div h3 { font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; }
+.blockBlue div div span, .blockBlue div div li, .blockLightBlue div div span, .blockLightBlue div div li { font-size: 15px; font-family: 'calibre'; }
+.blockBlue div div ul, .blockLightBlue div div ul { text-align: center; }
+.blockBlue div div .blockLink a, .blockLightBlue div div .blockLink a { font-family: 'calibre'; background-color: #2992e3; color: #ffffff; padding: 10px 20px; border: 1px solid #2992E3; border-radius: 20px; }
+.blockBlue div div .blockLink a:hover, .blockLightBlue div div .blockLink a:hover { opacity: 0.5; }
+
+@media screen and (max-width: 528px) { .blockBlue div, .blockLightBlue div { width: 100%; flex-direction: column-reverse; }
+  .blockBlue div div, .blockLightBlue div div { width: 90%; } }
+.blockWhite { background-color: #ffffff; color: #ffffff; border-top: 2px solid #0454BD; border-bottom: 2px solid #0454BD; width: 100%; }
+.blockWhite h3 { background-color: none; color: #0454BD; }
+.blockWhite div { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.blockWhite .blockWhiteLink a { background-color: #0454BD; color: #ffffff; padding: 10px 20px; border: 1px solid #0454BD; border-radius: 20px; }
+.blockWhite .blockWhiteLink a:hover { opacity: 0.5; }
+
+@media screen and (max-width: 528px) { .blockWhite img { width: 100%; } }
+@media screen and (min-width: 900px) { .blockWhite img { width: 100%; } }
+footer { font-family: 'calibre'; padding: 20px; margin-top: 40px; background-color: #2992e3; color: #ffffff; text-align: center; }
+
+/*# sourceMappingURL=blocksBlues.css.map */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="../styles/bootstrap/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/segments.css">
+		<link rel="stylesheet" href="../styles/styles.css">
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>Infosulf - Sistemas</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light navStyles d-flex flex-lg-row-reverse">
+			<div>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/facebook.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/instagram.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/whatsapp.svg" alt="" width="32px">
+				</a>
+			</div>
+			<button class="navbar-toggler navButton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="../images/icons/menu.svg" alt=""  width="32px">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active pt-3 pb-3 mr-lg-3">
+						<a class="LinkA" href="../index.html">Página Inicial</a>
+					</li>
+					<li class="nav-item active pt-3 pb-3 mr-lg-3">
+						<a class="LinkA" href="contact_location.html">Contatos/Localização</a>
+					</li>
+					<li class="nav-item active pt-3 pb-3">
+						<a class="LinkA" href="segments.html">Seguimentos</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    <main role="main">
+        <section>
+            <div class="introSegments">
+                <img src="../images/infosulf/logo_com_fundo_transparente.svg" alt="logo infosulf" width="200px">
+                <div id="phraseSegments" class="phraseSegments"></div>
+            </div>
+            <div class="patternSegments">
+                <span>Seja qual for o sistema que escolher você terá a sua disposição todas essas funcionalidades:</span>
+                <ul class="listIntro">
+                    <li>Controle de Estoque</li>
+                    <li>Controle do Caixa</li>
+                    <li>PDV</li>
+                    <li>Fluxo de caixa</li>
+                    <li>Contas a pagar e receber</li>
+                    <li>DRE</li>
+                    <li>Emissão de NF-e e NFC-e</li>
+                </ul>
+            </div>
+            <div id="systems">
+            </div>
+            <div class="buttonPhraseBlock">
+                <span class="phraseButton">Gostou de nossos sistemas?</span>
+                <div class="buttonBlock">
+                    <a href="./register.html">Clique aqui e cadastre-se para receber maiores informações.</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex text-center flex-column justify-content-center align-items-center flex-lg-row">
+			<span>© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
+			<picture class="ml-lg-5 mt-lg-0">
+				<img src="../images/infosulf/logo_developer.svg" alt="">
+			</picture>
+		</footer>
+    <script src="../javascripts/dom/systems.js"></script>
+		<script src="../javascripts/bootstrap/jquery.js"></script>
+		<script src="../javascripts/bootstrap/bootstrap.min.js"></script>
+    <script src="../javascripts/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

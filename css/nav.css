@@ -1,0 +1,29 @@
+nav { background-color: #2992E3; width: 100%; }
+nav ul { display: none; text-align: center; transform: translateX(-100%); transition: transform 2s linear; }
+nav ul li { padding: 2% 0; width: 100%; border-bottom: 1px solid #ffffff; }
+nav ul li a { color: #ffffff; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 800; text-transform: uppercase; line-height: 2; }
+nav ul li a:hover { opacity: 0.5; }
+
+.blockImages { display: flex; justify-content: space-around; border-bottom: 2px solid #ffffff; padding: 15px 0; }
+
+div div a img { margin-right: 10px; }
+
+.actvateMenu { display: block; transform: translateX(0); }
+
+.menuHumburguer { transform: rotateY(0); transition: transform 2s linear; }
+
+.actfateRoteMenu { transform: rotateY(180); position: absolute; display: none; }
+
+.closeMenu { display: none; transform: rotateY(0); transition: transform 2s linear; }
+
+.actvateCloseMenu { display: block; transform: rotateY(-180); }
+
+@media screen and (min-width: 960px) { .menuHumburguer { display: none; }
+  nav { display: flex; align-items: center; flex-direction: row-reverse; justify-content: space-around; border-bottom: 3px solid #ffffff; }
+  nav ul { display: flex; transform: translateX(0); }
+  nav ul li { border: none; padding: 0 10px; }
+  nav ul li a { font-size: 18px; }
+  .blockImages { border: 0; } }
+.baner { width: 100%; }
+
+/*# sourceMappingURL=nav.css.map */

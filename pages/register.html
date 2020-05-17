@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="../styles/bootstrap/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/form.css">
+		<link rel="stylesheet" href="../styles/styles.css">
+    <title>Infosulf - Registro</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light navStyles d-flex flex-lg-row-reverse">
+			<div>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/facebook.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/instagram.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="#">
+					<img src="../images/icons/whatsapp.svg" alt="" width="32px">
+				</a>
+			</div>
+			<button class="navbar-toggler navButton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="../images/icons/menu.svg" alt=""  width="32px">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active pt-3 pb-3 mr-lg-3">
+						<a class="LinkA" href="../index.html">Página Inicial</a>
+					</li>
+					<li class="nav-item active pt-3 pb-3 mr-lg-3">
+						<a class="LinkA" href="contact_location.html">Contatos/Localização</a>
+					</li>
+					<li class="nav-item active pt-3 pb-3">
+						<a class="LinkA" href="segments.html">Seguimentos</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    <main role="main">
+        <section>
+            <div class="introForm">
+                <img src="../images/infosulf/logo_com_fundo_transparente.svg" alt="logo infosulf" width="200px">
+                <div>
+                    <span>Prencha o formulário.</span>
+                </div>
+            </div>
+            <div class="formBlock">
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+                    <input type="hidden" name="recipient" value="comercial@infosulf.com.br"> <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value="http://www.infosulf.com.br/dev/html/successful.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="siguimentos">  <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="totvs.pvt.sulfluminense@gmail.com">
+                        <div>
+                            <label for="namePerson">Seu nome:</label><br>
+                            <input
+                                type="text"
+                                id="namePerson"
+                                name="Nome"
+                                placeholder="Seu nome"
+                                maxlength="50"
+                                required
+                            ><br>
+                            <label for="nameComapany">Nome da empresa (opcional):</label><br>
+                            <input
+                                type="text"
+                                id="nameComapany"
+                                name="Empresa"
+                                placeholder="Nome da empresa"
+                                maxlength="50"
+                            ><br>
+                            <label for="email">E-mail de contato:</label><br>
+                            <input
+                                type="email"
+                                id="email"
+                                name="replyto"
+                                placeholder="E-mail de contato"
+                                maxlength="50"
+                                required
+                                onInvalid="this.setCustomValidity('Digite um endereço de e-mail válido.')"
+                                onChange="try{setCustomValidity('')}catch(e){}"
+                            ><br>
+                            <label for="contact">Telefone de contato:</label><br>
+                            <input id="cellphone" type="hidden" name="Telefone" maxlength="11" minlength="11" required>
+                            <div class="dddPlusCell">
+                                <div class="dddCell">
+                                    <label for="ddd">DDD:</label><br>
+                                    <select  id="ddd" onChange="cellphoneNumber()" required>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="24">24</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="31">31</option>
+                                        <option value="32">32</option>
+                                        <option value="33">33</option>
+                                        <option value="34">34</option>
+                                        <option value="35">35</option>
+                                        <option value="37">37</option>
+                                        <option value="38">38</option>
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                        <option value="43">43</option>
+                                        <option value="44">44</option>
+                                        <option value="45">45</option>
+                                        <option value="46">46</option>
+                                        <option value="47">47</option>
+                                        <option value="48">48</option>
+                                        <option value="49">49</option>
+                                        <option value="51">51</option>
+                                        <option value="53">53</option>
+                                        <option value="54">54</option>
+                                        <option value="55">55</option>
+                                        <option value="61">61</option>
+                                        <option value="62">62</option>
+                                        <option value="63">63</option>
+                                        <option value="64">64</option>
+                                        <option value="65">65</option>
+                                        <option value="66">66</option>
+                                        <option value="67">67</option>
+                                        <option value="68">68</option>
+                                        <option value="71">71</option>
+                                        <option value="73">73</option>
+                                        <option value="74">74</option>
+                                        <option value="75">75</option>
+                                        <option value="77">77</option>
+                                        <option value="79">79</option>
+                                        <option value="81">81</option>
+                                        <option value="82">82</option>
+                                        <option value="83">83</option>
+                                        <option value="84">84</option>
+                                        <option value="85">85</option>
+                                        <option value="86">86</option>
+                                        <option value="87">87</option>
+                                        <option value="88">88</option>
+                                        <option value="89">89</option>
+                                        <option value="91">91</option>
+                                        <option value="92">92</option>
+                                        <option value="93">93</option>
+                                        <option value="94">94</option>
+                                        <option value="95">95</option>
+                                        <option value="96">96</option>
+                                        <option value="97">97</option>
+                                        <option value="98">98</option>
+                                        <option value="99">99</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="number">número: </label><br>
+                                    <input
+                                        id="number"
+                                        type="text"
+                                        placeholder="Telefone de contato"
+                                        width="20px"
+                                        maxlength="9"
+                                        minlength="9"
+                                        onChange="cellphoneNumber()"
+                                        required
+                                        pattern="[0-9]{9}"
+                                        >
+                                </div>
+                            </div>
+                            <input type="hidden" id="segment" name="Seguimento">
+                            <button type="submit" name="BTEnvia" value="Enviar">Enviar</button>
+                            <button type="reset" name="BTApaga" value="Apagar">Apagar</button>
+                        </div>
+                    </form>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex text-center flex-column justify-content-center align-items-center flex-lg-row">
+			<span>© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
+			<picture class="ml-lg-5 mt-lg-0">
+				<img src="../images/infosulf/logo_developer.svg" alt="">
+			</picture>
+		</footer>
+		<script src="../javascript/dom/register.js"></script>
+		<script src="../javascripts/bootstrap/jquery.js"></script>
+		<script src="../javascripts/bootstrap/bootstrap.min.js"></script>
+    <script src="../javascripts/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

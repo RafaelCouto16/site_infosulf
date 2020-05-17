@@ -1,0 +1,22 @@
+section .blockImage { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 40px 0px; border-bottom: 5px solid #0454BD; }
+section .blockImage img { margin-top: 40px; }
+section .blockImage .blackTextIntro { font-family: 'calibre'; font-size: 20px; text-align: center; color: #0454BD; margin-top: 40px; }
+section .blockImage .blackTextIntro .textFont { font-size: 30px; }
+section .blockRight, section .blockLeft { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #0454BD; padding: 40px 0; }
+section .blockRight h6, section .blockLeft h6 { font-size: 40px; font-family: Arial, Helvetica, sans-serif; margin-top: 20px; }
+section .blockRight ul, section .blockLeft ul { margin: 20px 0; }
+section .blockRight ul li, section .blockLeft ul li { font-family: 'calibre'; font-size: 20px; }
+section .blockLink { margin-top: 40px; text-align: center; }
+section .blockLink a { background-color: #0454BD; padding: 10px 20px; font-family: 'calibre'; color: #ffffff; border: 2px solid #0454BD; border-radius: 25px; }
+
+@media screen and (min-width: 768px) { section .blockImage { flex-direction: row; }
+  section .blockImage img { margin-top: 0; }
+  section .blackTextIntro { margin: 0 40px; width: 50%; }
+  section .blockRight { flex-direction: row-reverse; text-align: left; }
+  section .blockRight img { margin-left: 40px; }
+  section .blockRight div { width: 60%; }
+  section .blockLeft { flex-direction: row; text-align: left; }
+  section .blockLeft img { margin-right: 40px; }
+  section .blockLeft div { width: 60%; } }
+
+/*# sourceMappingURL=knowmore.css.map */
