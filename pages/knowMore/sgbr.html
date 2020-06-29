@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../../styles/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../../styles/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../../styles/reset.css">
+	<link rel="stylesheet" href="../../styles/styles.css">
+
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+  <title>InfoSulf - Intsys</title>
+</head>
+<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bgCustomLightBlue d-flex flex-lg-row-reverse">
+				<a class="navbar-brand" href="https://www.facebook.com/InfoSulF/" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/facebook.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="https://www.instagram.com/infosulf/" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/instagram.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5524988641267" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/whatsapp.svg" alt="" width="32px">
+				</a>
+				<button class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="../../images/icons/menu.svg" alt=""  width="32px">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item active pt-3 mr-3 linkCustom" href="../../index.html">Página Inicial</a>
+						<a class="nav-item active pt-3 mr-3 linkCustom" href="../contact_location.html">Contatos/Localização</a>
+						<a class="nav-item active pt-3 pb-2 linkCustom" href="../segments.html">Sistemas</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center pt-5 pb-5">
+			<picture>
+				<img src="../../images/infosulf/logo_512.svg" alt="" width="200px">
+			</picture>
+			<div class="mt-4 mt-lg-0 ml-lg-5">
+				<img src="../../images/partners/sgbr.svg" alt="" width="300px">
+			</div>
+		</div>
+		<main>
+			<section>
+				<div class="d-flex flex-column justify-content-center align-items-center">
+					<div class="bgCustomBlue blockCustom2 text-center d-flex flex-column flex-lg-row justify-content-center align-items-center pt-3 pb-3">
+						<button class="linkCustom buttonfocus autofocus bgNone" onClick="showSistem(basic)" autofocus>Básica</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(master)">Master</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(plus)">Plus</button>
+					</div>
+					<div id="basic" class="blockCustom2 desabled actived">
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">SG Master - Versão Básica</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Destinado para empresas que, em cumprimento a legislação, apenas emitem documentos fiscais,
+									sem um controle mais detalhado. Nela é possível ter acesso aos documentos emitidos,
+									enviar os dados para os contadores e também cadastrar clientes, produtos, fornecedores e
+									transportadoras.
+								</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Confira algumas das funcionalidades:
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Cadastro de clientes;</li>
+									<li class="listStyleCustom">Cadastro de produtos;</li>
+									<li class="listStyleCustom">Cadastro de fornecedores;</li>
+									<li class="listStyleCustom">Cadastro de transportadoras;</li>
+									<li class="listStyleCustom">Excelente substituto do emissor gratuito de documentos fiscais;</li>
+									<li class="listStyleCustom">Emite somente um documento fiscal (NF-e ou; NFC-e ou; CF-e SAT ou; MFE ou; ECF (cupom fiscal) ou; CT-e ou; CT-e OS);</li>
+									<li class="listStyleCustom">Emissão de MDF-e inclusa quando documento fiscal for NF-e ou CT-e;</li>
+									<li class="listStyleCustom">Envio de relatório para contabilidade além de outros cadastros e funcionalidades.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="master" class="blockCustom2 desabled">
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">SG Master - Versão Master</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Conta com todas as funcionalidades e módulos que partem de cadastros comuns
+									(clientes, estoque, fornecedores, etc.) até módulos mais complexos (vendas, fluxo de caixa, bancos,
+									emissores de documentos fiscais, etc.).
+								</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Confira algumas das funcionalidades:
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">
+										Emissão de NF-e, NFP-e, NFC-e, CF-e SAT, MFE, MDF-e, GNRE, cupons fiscais (ECF) e geração de Sped fiscal, Sped contribuições e Sintegra;
+									</li>
+									<li class="listStyleCustom">
+										Emissão de carta de correção eletrônica (CC-e);
+									</li>
+									<li class="listStyleCustom">
+										Manifestação de notas fiscais emitidas;
+									</li>
+									<li class="listStyleCustom">
+										Localização e gerenciamento de NF-e em uma única tela;
+									</li>
+									<li class="listStyleCustom">
+										Transferência eletrônica de fundos (TEF);
+									</li>
+									<li class="listStyleCustom">
+										Impressão de confissão de dívida, saldo devedor e limite de crédito disponível do cliente ao final do documento fiscal;
+									</li>
+									<li class="listStyleCustom">
+										Controle de estoque, geração de inventário, lucratividade, controle de grupo, marca, possibilidade de duplicar produtos;
+									</li>
+									<li class="listStyleCustom">
+										Lançamento de notas fiscais de compra manual, com importação de XML local ou direto da secretaria da fazenda;
+									</li>
+									<li class="listStyleCustom">
+										Emissão de boletos sem custo adicional e sem limitação, conciliação bancária e controle de contas bancárias;
+									</li>
+									<li class="listStyleCustom">
+										Impressão de etiquetas em bobina e folha A4 para vários modelos de impressoras térmicas, jato de tinta e laser;
+									</li>
+									<li class="listStyleCustom">
+										Manifestação de notas fiscais emitidas;
+									</li>
+									<li class="listStyleCustom">
+										Controle de relacionamento com o cliente (CRM).
+									</li>
+									<li class="listStyleCustom">
+										Parcelamento predefinido com cálculo rápido de juros nas vendas a prazo;
+									</li>
+									<li class="listStyleCustom">
+										Inserção de atalhos nas espécies de pagamento para agilizar a finalização da venda;
+									</li>
+									<li class="listStyleCustom">
+										Controle de montagem e venda de kits (cestas básicas, kits promocionais, etc.);
+									</li>
+									<li class="listStyleCustom">
+										Controle de venda consignada (condicional) de fácil utilização;
+									</li>
+									<li class="listStyleCustom">
+										Controle de compromissos e lembretes por usuário;
+									</li>
+									<li class="listStyleCustom">
+										Controle de preços promocionais e utilização de tabela de preços;
+									</li>
+									<li class="listStyleCustom">
+										Emissão de lista de casamento, vale presente, crédito por cliente e devolução de venda rápida;
+									</li>
+									<li class="listStyleCustom">
+										Emissão de orçamento, pedido de venda, pedido de compra, pré-venda e aluguel;
+									</li>
+									<li class="listStyleCustom">
+										Tela de consulta de preços, integração com leitores busca preço GERTEC;
+									</li>
+									<li class="listStyleCustom">
+										Controle de lote e validade de mercadorias;
+									</li>
+									<li class="listStyleCustom">
+										Controle de seriais e grade de produtos;
+									</li>
+									<li class="listStyleCustom">
+										Situação tributária de produtos de fácil entendimento;
+									</li>
+									<li class="listStyleCustom">
+										Desmembramento automático de kits ou produtos montados no documento fiscal;
+									</li>
+									<li class="listStyleCustom">
+										Compatibilidade com várias impressoras fiscais, impressoras térmicas e impressoras de etiquetas;
+									</li>
+									<li class="listStyleCustom">
+										Possibilidade de identificar campos adicionais em vários cadastros;
+									</li>
+									<li class="listStyleCustom">
+										Controle de ordem de produção;
+									</li>
+									<li class="listStyleCustom">
+										Integração com vários modelos de balanças;
+									</li>
+									<li class="listStyleCustom">
+										Controle das obrigatoriedades de informações para clientes e fornecedores;
+									</li>
+									<li class="listStyleCustom">
+										Emissão de recibo avulso, duplicata, carnê, etc.;
+									</li>
+									<li class="listStyleCustom">
+										Autenticação de recebimentos;
+									</li>
+									<li class="listStyleCustom">
+										Criação de relatórios personalizados pelo usuário ou desenvolvimento sob demanda;
+									</li>
+									<li class="listStyleCustom">
+										Controle de acesso com usuário e senha;
+									</li>
+									<li class="listStyleCustom">
+										Sistema de backup inteligente;
+									</li>
+									<li class="listStyleCustom">
+										Atualizações totalmente automatizadas além de outros cadastros e funcionalidades;
+									</li>
+									<li class="listStyleCustom">
+										Integração com a plataforma MeuSG.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="plus" class="blockCustom2 desabled">
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">SG Master - Versão Plus</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Contempla todos os módulos e funcionalidades da versão Master, tendo como opção, a adição de um dos módulos:
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">
+										OS/NFS-e – Para prestadores de serviço em geral (sob consulta);
+									</li>
+									<li class="listStyleCustom">
+										Comandas – Para bares, restaurantes, hotéis e similares;
+									</li>
+									<li class="listStyleCustom">
+										CT-e/CT-e OS – Para pequenas transportadoras.
+									</li>
+									<li class="listStyleCustom">
+										FARMA - Para farmácias e drogarias.
+									</li>
+								</ul>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Confira algumas das funcionalidades
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">
+										Cálculo de comissão para vendedores e técnicos;
+									</li>
+									<li class="listStyleCustom">
+										Controle completo de ordens de serviço com cadastro de situações
+										determinando as cores de cada situação cadastrada e reserva de produtos;
+									</li>
+									<li class="listStyleCustom">
+										Controle de serviços prestados em horas, agendamento de serviços e importação para NF-e conjugada;
+									</li>
+									<li class="listStyleCustom">
+										Gestão de bares, restaurantes e similares com o controle visual e a possibilidade de transferência de mesas,
+										transferência de itens, tele entrega (delivery), comissão de garçons, etc.;
+									</li>
+									<li class="listStyleCustom">
+										Abertura rápida de mesas com opção de conferência do pedido do cliente e importação para os principais módulos de venda;
+									</li>
+									<li class="listStyleCustom">
+										Gestão de hotéis com controle e consumação e reserva de quartos;
+									</li>
+									<li class="listStyleCustom">
+										Atende pequenas transportadoras de mercadorias, pessoas ou valores além de outros cadastros e funcionalidades;
+									</li>
+									<li class="listStyleCustom">
+										Gerenciamento completo de farmácias e drogarias contanto com o cadastro rápido de medicamentos,
+										controle de validade de produtos, integração entre filiais para consulta, cadastro de receitas na abertura da venda,
+										preenchimento rápido de informações, agilidade na alteração das receitas e facilidade na geração do arquivo SNGPC/ANVISA.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="d-flex flex-column justify-content-center align-items-center">
+					<div class="mt-4 text-center">
+						<a href="../systems.html" class="linkCustom bgCustomBlue buttonCustom">Voltar aos sistemas.</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="bgCustomLightBlue text-center pt-3 pb-3 mt-4 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+			<div>
+				<span class="textCustom">© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
+			</div>
+			<div class="ml-lg-5 mt-2 mt-lg-0">
+				<span class="textCustom">Site desenvolvido por: <span class="textCustom timesNewRoman">Rafael Couto Silva</span></span>
+			</div>
+		</footer>
+		<script src="../../javascript/dom/showSistem.js"></script>
+		<script src="../../javascript/bootstrap/jquery.js"></script>
+		<script src="../../javascript/bootstrap/bootstrap.min.js"></script>
+		<script src="../../javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

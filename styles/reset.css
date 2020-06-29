@@ -1,11 +1,1 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-a, a:hover, a:visited, a:active, a:link{
-    text-decoration: none;
-}
-ul, li, ol{
-    list-style: none;
-}
+*{margin: 0;border: 0;padding: 0;}a, a:hover, a:visited, a:active, a:link{text-decoration: none;}ul, li, ol{list-style: none;}

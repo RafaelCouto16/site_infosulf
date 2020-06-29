@@ -1,7 +1,1 @@
 /node_modules
-/src
-/scss
-*.map
-.editorconfig
-yarn.lock
-package.json

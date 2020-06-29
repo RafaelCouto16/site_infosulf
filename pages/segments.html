@@ -3,160 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <meta name="Googlebot" content="noindex">
-    <meta name="googlebot-news" content="nosnippet">
-    <meta name="theme-color" content="#2992E3"/>
-		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 
 		<link rel="stylesheet" href="../styles/bootstrap/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/systems.css">
-		<link rel="stylesheet" href="../css/form.css">
+		<link rel="stylesheet" href="../styles/reset.css">
 		<link rel="stylesheet" href="../styles/styles.css">
 
-    <title>Infosulf - Segments</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>InfoSulf - Contato/Localização</title>
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light navStyles d-flex flex-lg-row-reverse">
-			<div>
-				<a class="navbar-brand" href="#">
-					<img src="../images/icons/facebook.svg" alt="" width="32px">
-				</a>
-				<a class="navbar-brand" href="#">
-					<img src="../images/icons/instagram.svg" alt="" width="32px">
-				</a>
-				<a class="navbar-brand" href="#">
-					<img src="../images/icons/whatsapp.svg" alt="" width="32px">
-				</a>
-			</div>
-			<button class="navbar-toggler navButton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-light bgCustomLightBlue d-flex flex-lg-row-reverse">
+			<a class="navbar-brand" href="https://www.facebook.com/InfoSulF/" target="_blank" rel="noopener noreferrer">
+				<img src="../images/icons/facebook.svg" alt="" width="32px">
+			</a>
+			<a class="navbar-brand" href="https://www.instagram.com/infosulf/" target="_blank" rel="noopener noreferrer">
+				<img src="../images/icons/instagram.svg" alt="" width="32px">
+			</a>
+			<a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5524988641267" target="_blank" rel="noopener noreferrer">
+				<img src="../images/icons/whatsapp.svg" alt="" width="32px">
+			</a>
+			<button class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<img src="../images/icons/menu.svg" alt=""  width="32px">
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active pt-3 pb-3 mr-lg-3">
-						<a class="LinkA" href="../index.html">Página Inicial</a>
-					</li>
-					<li class="nav-item active pt-3 pb-3 mr-lg-3">
-						<a class="LinkA" href="contact_location.html">Contatos/Localização</a>
-					</li>
-					<li class="nav-item active pt-3 pb-3">
-						<a class="LinkA" href="segments.html">Seguimentos</a>
-					</li>
-				</ul>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item active pt-3 mr-3 linkCustom" href="../index.html">Página Inicial</a>
+					<a class="nav-item active pt-3 mr-3 linkCustom" href="contact_location.html">Contatos/Localização</a>
+					<a class="nav-item active pt-3 pb-2 linkCustom" href="segments.html">Sistemas</a>
+				</div>
 			</div>
 		</nav>
 	</header>
-    <main role="main">
-        <section>
-            <div class="introSystems">
-                <img src="../images/infosulf/logo_com_fundo_transparente.svg" alt="logo infosulF" width="200px">
-                <div class="blockIntroText">
-                    <span>Dentre os vários seguimentos que atendemos escolha aquele que mais se aproxima do seu ramo de negócio.</span>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="buttonBlocks">
-                <button name="segments" value="loja de vestuario" onClick="segmentsDOM('lojaDeVestuario')" class="blue">
-                    Lojas de vestuários
-                </button>
-                <button name="segments" value="loja de sapatos" onClick="segmentsDOM('lojaDeSapatos')" class="lightBlue">
-                    Lojas de calçados
-                </button>
-                <button name="segments" value="loja de acessorios" onClick="segmentsDOM('lojaDeAcessorios')" class="blue">
-                    Lojas de acessórios
-                </button>
-                <button name="segments" value="loja de tintas" onClick="segmentsDOM('lojaDeTintas')" class="lightBlue">
-                    Lojas de tintas
-                </button>
-                <button name="segments" value="contabilidade" onClick="segmentsDOM('contabilidades')" class="blue">
-                    Contabilidades
-                </button>
-                <button name="segments" value="oticas" onClick="segmentsDOM('oticas')" class="lightBlue">
-                    Óticas
-                </button>
-                <button name="segments" value="locacoes diversas" onClick="segmentsDOM('locacoesDiversas')" class="blue">
-                    Locações diversas
-                </button>
-                <button name="segments" value="ofincinas" onClick="segmentsDOM('oficinas')" class="lightBlue">
-                    Oficinas
-                </button>
-                <button name="segments" value="prestadores de servicos" onClick="segmentsDOM('prestadoresDeServicos')" class="blue">
-                    Prestadores de serviços
-                </button>
-                <button name="segments" value="mine mercados" onClick="segmentsDOM('mineMercados')" class="lightBlue">
-                    Mine mercados
-                </button>
-                <button name="segments" value="padarias" onClick="segmentsDOM('padarias')" class="blue">
-                    Padarias
-                </button>
-                <button name="segments" value="açougues" onClick="segmentsDOM('acougues')" class="lightBlue">
-                    Açougues
-                </button>
-                <button name="segments" value="peixarias" onClick="segmentsDOM('peixarias')" class="blue">
-                    Peixarias
-                </button>
-                <button name="segments" value="varejo" onClick="segmentsDOM('varejo')" class="lightBlue">
-                    Varejos
-                </button>
-                <button name="segments" value="bares e restaurantes" onClick="segmentsDOM('baresERestaurantes')" class="blue">
-                    Bares e restaurantes
-                </button>
-                <button name="segments" value="food trucks" onClick="segmentsDOM('foodTrucks')" class="lightBlue">
-                    Food trucks
-                </button>
-                <button name="segments" value="transportes" onClick="segmentsDOM('transportes')" class="blue">
-                    Transportes
-                </button>
-                <button name="segments" value="hoteis e pousadas" onClick="segmentsDOM('hoteisEPousadas')" class="lightBlue">
-                    Hotéis e pousadas
-                </button>
-                <button name="segments" value="consultorios e clinicas medicas" onClick="segmentsDOM('consultoriosEClinicasMedicas')" class="blue">
-                    Consultórios e clínicas médicas
-                </button>
-                <button name="segments" value="postos de combustiveis" onClick="segmentsDOM('postosDeCombustiveis')" class="lightBlue">
-                    Postos de combustíveis
-                </button>
-                <button name="segments" value="manufaturas e pequenas fabricas" onClick="segmentsDOM('manufaturasEPequenasFabricas')" class="blue">
-                    Manufaturas e pequenas fábricas
-                </button>
-                <button name="segments" value="auto pecas" onClick="segmentsDOM('autoPecas')" class="lightBlue">
-                    Auto peças
-                </button>
-                <button name="segments" value="pet shop" onClick="segmentsDOM('petShop')" class="blue">
-                    Pet shops
-                </button>
-                <button name="segments" value="atacado e distribuicao" onClick="segmentsDOM('atacadoEDistribuicao')" class="lightBlue">
-                    Atacados e distribuição
-                </button>
-                <button name="segments" value="farmacias" onClick="segmentsDOM('farmacias')" class="blue">
-                    Farmácias
-                </button>
-                <button name="segments" value="franquias" onClick="segmentsDOM('franquias')" class="lightBlue">
-                    Franquias
-                </button>
-                <button name="segments" value="pet shop" onClick="segmentsDOM('pecuaria')" class="blue">
-                    Pecuária leiteira e de corte
-                </button>
-                <button name="segments" value="construtora" onClick="segmentsDOM('construtora')" class="lightBlue">
-                    Construtoras
-                </button>
-            </div>
-        </section>
-    </main>
-    <footer class="d-flex text-center flex-column justify-content-center align-items-center flex-lg-row">
-			<span>© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
-			<picture class="ml-lg-5 mt-lg-0">
-				<img src="../images/infosulf/logo_developer.svg" alt="">
-			</picture>
+	<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center pt-5 pb-5">
+		<picture>
+			<img src="../images/infosulf/logo_512.svg" alt="" width="200px">
+		</picture>
+		<div class="blockTitle mt-4 mt-lg-0 ml-lg-5">
+			<span class="titleCustom colorBlue">Segmentos</span>
+		</div>
+	</div>
+		<section>
+			<div class="text-center bgCustomBlue pt-4 pb-4">
+				<span class="titleCustom">Dentre os vários seguimentos que atendemos escolha aquele que mais se aproxima do seu ramo de negócio.</span>
+			</div>
+			<div class="row justify-content-center align-content-center m-0 mt-4 w-100">
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(0)">Lojas de vestuário</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(1)">Lojas de calçados</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(2)">Lojas de tintas</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(3)">Lojas de acessórios</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(4)">Contabilidades</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(5)">Óticas</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(6)">Locações diversas</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(7)">Oficias</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(8)">Prestadores de serviços</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(9)">Mine mercados</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(10)">Padarias</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(11)">Açougues</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(12)">Peixarias</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(13)">Varejos</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(14)">Atacados e distribuição</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(15)">Bares de restaurantes</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(16)">Food trucks</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(17)">Transportes</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(18)">Hotéis e pousadas</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(19)">Consultórios e clínicas médicas</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(20)">Postos de conbustíveis</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(21)">Manufaturas e pequenas fábricas</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(22)">Auto peças</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(23)">Pet shops</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(24)">Farmácias</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(25)">Franquias</button>
+				<button class="bgCustomLightBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(26)">Pecuária leiteira ou de corte</button>
+				<button class="bgCustomBlue textCustom buttonCustom col-11 col-md-5 col-lg-3 mt-2 mr-md-2 ml-md-2" onClick="saveListSystem(27)">Construtoras</button>
+			</div>
+		</section>
+		<footer class="bgCustomLightBlue text-center pt-3 pb-3 mt-4 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+			<div>
+				<span class="textCustom">© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
+			</div>
+			<div class="ml-lg-5 mt-2 mt-lg-0">
+				<span class="textCustom">Site desenvolvido por: <span class="textCustom timesNewRoman">Rafael Couto Silva</span></span>
+			</div>
 		</footer>
-		<script src="../javascripts/dom/systems.js"></script>
-		<script src="../javascripts/bootstrap/jquery.js"></script>
-		<script src="../javascripts/bootstrap/bootstrap.min.js"></script>
-    <script src="../javascripts/bootstrap/bootstrap.bundle.min.js"></script>
+		<script src="../javascript/segments/partners.js"></script>
+		<script src="../javascript/segments/segments.js"></script>
+		<script src="../javascript/segments/saveListSystem.js"></script>
+		<script src="../javascript/bootstrap/jquery.js"></script>
+		<script src="../javascript/bootstrap/bootstrap.min.js"></script>
+		<script src="../javascript/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>

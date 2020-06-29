@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../../styles/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../../styles/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../../styles/reset.css">
+	<link rel="stylesheet" href="../../styles/styles.css">
+
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+  <title>InfoSulf - Intsys</title>
+</head>
+<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bgCustomLightBlue d-flex flex-lg-row-reverse">
+				<a class="navbar-brand" href="https://www.facebook.com/InfoSulF/" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/facebook.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="https://www.instagram.com/infosulf/" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/instagram.svg" alt="" width="32px">
+				</a>
+				<a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5524988641267" target="_blank" rel="noopener noreferrer">
+					<img src="../../images/icons/whatsapp.svg" alt="" width="32px">
+				</a>
+				<button class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="../../images/icons/menu.svg" alt=""  width="32px">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item active pt-3 mr-3 linkCustom" href="../../index.html">Página Inicial</a>
+						<a class="nav-item active pt-3 mr-3 linkCustom" href="../contact_location.html">Contatos/Localização</a>
+						<a class="nav-item active pt-3 pb-2 linkCustom" href="../segments.html">Sistemas</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center pt-5 pb-5">
+			<picture>
+				<img src="../../images/infosulf/logo_512.svg" alt="" width="200px">
+			</picture>
+			<div class="mt-4 mt-lg-0 ml-lg-5">
+				<img src="../../images/partners/Intsys.svg" alt="" width="300px">
+			</div>
+		</div>
+		<main>
+			<section>
+				<div class="d-flex flex-column justify-content-center align-items-center">
+					<div class="bgCustomBlue blockCustom2 text-center d-flex flex-column flex-lg-row justify-content-center align-items-center pt-3 pb-3">
+						<button class="linkCustom buttonfocus autofocus bgNone" onClick="showSistem(contabilidade)" autofocus>Contabilidade</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(folhaPagamento)">Folha de Pagamento</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(fiscal)">Fiscal</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(pontoEletronico)">Ponto Eletrônico</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(administrador)">Administrador</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(crm)">CRM</button>
+						<button class="linkCustom buttonfocus bgNone mt-2 mt-lg-0 ml-lg-4" onClick="showSistem(cnd)">CND</button>
+					</div>
+					<div id="contabilidade" class="blockCustom2 desabled actived">
+						<picture>
+							<img src="../../images/intsys/intsys1.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">Contabilidade</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									É uma ferramenta que oferece informações claras atendendo às normas da legislação tributária
+									atualizada. Por meio de demonstrativos gerenciais, relatórios de controles e geração de arquivos
+									para o Fisco, plano de contas configurável, conciliação de contas, portações: Sped Contábil, Manad,
+									Sinco entre outros.Permite contabilização por centro de custos, rateios de formas variadas,
+									possibilita trabalhar com vários planos de contas ou com um único para todas as empresas.
+								</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Integração total com todos os módulos disponíveis no sistema:
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Plano de Contas Padrão ou Configurável</li>
+									<li class="listStyleCustom">Plano de Contas da ANS</li>
+									<li class="listStyleCustom">Plano de Contas Entidade Filantrópica</li>
+									<li class="listStyleCustom">Mudança de Plano de Contas</li>
+									<li class="listStyleCustom">Histórico Padrão ou Configurável</li>
+									<li class="listStyleCustom">Lançamentos em Partidas Simples ou Dobradas</li>
+									<li class="listStyleCustom">Lançamentos MultiMês</li>
+									<li class="listStyleCustom">Implantação de Saldos Iniciais</li>
+									<li class="listStyleCustom">Importação de Plano de Contas e Lançamentos</li>
+									<li class="listStyleCustom">Reclassificação de Contas</li>
+									<li class="listStyleCustom">Termos de Abertura e Encerramento</li>
+									<li class="listStyleCustom">Controle de Livro Caixa</li>
+									<li class="listStyleCustom">Apuração Automática do Exercício</li>
+									<li class="listStyleCustom">Planilhas Programadas</li>
+									<li class="listStyleCustom">Editores de Contratos</li>
+									<li class="listStyleCustom">Criação e Personalização de Relatórios</li>
+									<li class="listStyleCustom">Conciliação de Contas</li>
+									<li class="listStyleCustom">Controle do Ativo Permanente</li>
+									<li class="listStyleCustom"i>Livros Contábeis: Balanço, Balancete, Razão, Diário</li>
+									<li class="listStyleCustom">DRE, DFC, DOAR, LALUR, DLPA, DMPL</li>
+									<li class="listStyleCustom">Análises Contábeis</li>
+									<li class="listStyleCustom">Exportações: SPED Contábil, SPED ECF, FCONT, Manad, Sinco</li>
+									<li class="listStyleCustom">Importação SPED Contábil, Arquivos OFX</li>
+									<li class="listStyleCustom">Configuração do Plano de Contas Referencial</li>
+									<li class="listStyleCustom">Integração Total com Todos os Módulos do Sistema</li>
+									<li class="listStyleCustom">Integração Contabilidade ao Livro Caixa</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="folhaPagamento" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys2.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">Folha de Pagamento</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Uma excelente ferramenta usada como gerenciador do Departamento Pessoal da empresa,
+									disponibilizamos de forma ágil e segura com relatórios diversos, gerenciamento de dependentes,
+									controle das emissões por local de trabalho, controle de benefícios e remessa para bancos,
+									todas as obrigações pertinentes a folha de pagamento de forma atualizada:
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Tabela de Eventos Configurável</li>
+									<li class="listStyleCustom">Cálculo de Mensalistas, Horistas, Professores, Estagiários, Pró-labore</li>
+									<li class="listStyleCustom">Cálculo de Domésticas, Autônomos, Carreteiros</li>
+									<li class="listStyleCustom">Cálculo de Diferenças Salariais</li>
+									<li class="listStyleCustom">Cálculo de Vale Transporte</li>
+									<li class="listStyleCustom">Cálculo de Benefícios</li>
+									<li class="listStyleCustom">Cálculo Retroativo Baseado nos Valores e Histórico da Época</li>
+									<li class="listStyleCustom">Cálculo de Rescisões, Férias e Férias Coletivas</li>
+									<li class="listStyleCustom">Homolognet (Homologação de Rescisões online)</li>
+									<li class="listStyleCustom">Controle de Guias Emitidas, Pagas e a Vencer</li>
+									<li class="listStyleCustom">Controle de Exame Médico</li>
+									<li class="listStyleCustom">Controle de Experiência</li>
+									<li class="listStyleCustom">Controle de Férias Vencidas</li>
+									<li class="listStyleCustom">Controle de Empréstimo Consignado</li>
+									<li class="listStyleCustom">Controle de Pensões</li>
+									<li class="listStyleCustom">Ficha de Registro</li>
+									<li class="listStyleCustom">Folha de Pagamento Analítica e Sintética</li>
+									<li class="listStyleCustom">Emissão de Recibos Pré-Formatados</li>
+									<li class="listStyleCustom">Livros Contábeis: Balanço, Balancete, Razão, Diário</li>
+									<li class="listStyleCustom">Relatórios Admissionais</li>
+									<li class="listStyleCustom">Relatório de Apuração de Média de Variáveis</li>
+									<li class="listStyleCustom">Criação de Relatórios Personalizados</li>
+									<li class="listStyleCustom">Média de Variáveis por Sindicato</li>
+									<li class="listStyleCustom">Cálculo de Guias em Atraso</li>
+									<li class="listStyleCustom">Emissão de Comunicado e Seguro Desemprego</li>
+									<li class="listStyleCustom">Emissão de Relatórios e Guias por Local de Trabalho</li>
+									<li class="listStyleCustom">Arquivos Magnéticos para Crédito em Conta Corrente</li>
+									<li class="listStyleCustom">Gerador de Lay-Out para Contabilização</li>
+									<li class="listStyleCustom">Geração de Variáveis</li>
+									<li class="listStyleCustom">Exportações: SEFIP, GRRF, CAGED, RAIS, DIRF, Manad</li>
+									<li class="listStyleCustom">Todas as Configurações para eSocial e Seus Auxiliares</li>
+									<li class="listStyleCustom">Gerenciador dos Cadastros Para eSocial</li>
+									<li class="listStyleCustom">Solicitação NIS via Web</li>
+									<li class="listStyleCustom">Seguro Desemprego Web</li>
+									<li class="listStyleCustom">Integração de Todos os Dados com a Contabilidade</li>
+									<li class="listStyleCustom">Importação de Variáveis via CRM</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="fiscal" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys3.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">Fiscal</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Elaborado para melhor atendêlo e otimizar seu trabalho, o sistema foi desenvolvido para atender as
+									legislações dos estados brasileiros, gerando informações legais em âmbito municipal, estadual e federal.
+									Adequado ao SPED Fiscal, Contribuições e ECF, possui também Importação de Notas Fiscais Eletrônicas,
+									Simples Nacional com conexão ao site da Receita Federal, controle de inventário e outros recursos.
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Lançamentos Fiscais de Mercadorias e Serviços</li>
+									<li class="listStyleCustom">Lançamentos Movimentação de Combustíveis</li>
+									<li class="listStyleCustom">Lançamentos Avulsos Para PIS e Cofins</li>
+									<li class="listStyleCustom">Configuração dos Modelos de Lançamento de Notas</li>
+									<li class="listStyleCustom">Simples Nacional Apuração anterior e atual a 2018</li>
+									<li class="listStyleCustom">Geração dos valore automaticamente no PGDAS</li>
+									<li class="listStyleCustom">Importação de Clientes/Fornecedores e Lançamentos</li>
+									<li class="listStyleCustom">Importação de Notas Fiscais Eletrônicas XML e Web</li>
+									<li class="listStyleCustom">Importação de Conhecimento de Transporte Eletrônico XML e Web</li>
+									<li class="listStyleCustom">Importação de Nota Consumidor Eletrônico, SAT</li>
+									<li class="listStyleCustom">Importação Mapa Resumo via CAT60</li>
+									<li class="listStyleCustom">Importação SPED EFD, Contribuições, Sintegra, REDF, TDREDF</li>
+									<li class="listStyleCustom">Lucro Presumido e Lucro Real</li>
+									<li class="listStyleCustom">Livros de Apuração de ICMS e IPI</li>
+									<li class="listStyleCustom">Livros de Entradas e Saídas</li>
+									<li class="listStyleCustom">Livro e Manutenção de Inventário</li>
+									<li class="listStyleCustom">Livro de ISS</li>
+									<li class="listStyleCustom">Livro de Produto Rural</li>
+									<li class="listStyleCustom">Controle de Duplicatas</li>
+									<li class="listStyleCustom">Controle e Gerenciamento do CIAP</li>
+									<li class="listStyleCustom">Manutenção e Controle do Estoque</li>
+									<li class="listStyleCustom">Exportações Federais: SPED EFD, SPED Contribuições, SPED ECF, SPED REINF, Manad, DCTF, DIPJ, Sinco</li>
+									<li class="listStyleCustom">Exportações Estaduais</li>
+									<li class="listStyleCustom">Exportações Municipais</li>
+									<li class="listStyleCustom">Declaração de Faturamento</li>
+									<li class="listStyleCustom">Carta de Correção</li>
+									<li class="listStyleCustom">Relatórios Auxiliares: Informe de Rendimentos Jurídicos, Distribuição de Lucros</li>
+									<li class="listStyleCustom">Relatórios de Apuração das Guias</li>
+									<li class="listStyleCustom">Cálculos de Guias em Atraso</li>
+									<li class="listStyleCustom">Conexão e Baixa das Guias Via ECAC</li>
+									<li class="listStyleCustom">Correção de Notas em Lote</li>
+									<li class="listStyleCustom">Correção do Cadastro de Produtos em Lote</li>
+									<li class="listStyleCustom">Correção de Valores nas Notas Fiscais em Lote</li>
+									<li class="listStyleCustom">Integração de Todos os Valores com a Contabilidade</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="pontoEletronico" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys3.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">Ponto Eletrônico</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Ferramenta para administrar com mais precisão e fazer ajustes conforme necessário,
+									podendo ser integrado ao sistema de Folha de Pagamento. O sistema oferece:
+									gerenciamento do banco de horas, apuração de horas extras ou mensal e emissão
+									de cartão de ponto, podendo ser configurável para qualquer relógio de ponto.
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Configurável para Qualquer Relógio de Ponto</li>
+									<li class="listStyleCustom">Escala de Ponto</li>
+									<li class="listStyleCustom">Apuração de Horas Extras Diária ou Mensal</li>
+									<li class="listStyleCustom">Importação dos Dados Correspondente a Portaria 1510</li>
+									<li class="listStyleCustom">Controle de Banco de Horas</li>
+									<li class="listStyleCustom">Controle de Atestados Médicos</li>
+									<li class="listStyleCustom">Emissão de Cartão de Ponto</li>
+									<li class="listStyleCustom">Cálculo Efetuado Para Qualquer Sindicato</li>
+									<li class="listStyleCustom">Relatório de Apoio, Inconsistências e Ocorrências</li>
+									<li class="listStyleCustom">Geração e Exportação de Variáveis Para o Sistema Folha de Pagamento</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="administrador" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys5.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">Administrador</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Administrador Escritórios Contábeis
+								</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Desenvolvido para um melhor gerenciamento financeiro da sua empresa (escritório contábil) de forma clara através de relatórios
+									e outros recursos, além de oferecer o controle de seu contas a pagar, contas a receber, fluxo de caixa e demais ferramentas
+									para te auxiliar na tomada de decisões.
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Contas a Pagar e a Receber</li>
+									<li class="listStyleCustom">Configurações de Formulários Matriciais para Emissão de Notas Fiscais</li>
+									<li class="listStyleCustom">Emissão de Boletos com Código de Barra</li>
+									<li class="listStyleCustom">Emissão de Notas Fiscais de Serviço</li>
+									<li class="listStyleCustom">Emissão de Honorários Contábeis</li>
+									<li class="listStyleCustom">Configurador de Nota Fiscal Eletrônica</li>
+									<li class="listStyleCustom">Controle de Atualização de Contrato</li>
+									<li class="listStyleCustom">Controle de Inadimplência</li>
+									<li class="listStyleCustom">Cobranças Mensais e Cobranças Avulsas</li>
+									<li class="listStyleCustom">Configurador de Arquivos Remessa/Retorno</li>
+									<li class="listStyleCustom">Baixas Automáticas</li>
+									<li class="listStyleCustom">Emissão e Manutenção de Protocolos</li>
+									<li class="listStyleCustom">Fluxo de Caixa</li>
+									<li class="listStyleCustom">Relatórios Personalizados</li>
+									<li class="listStyleCustom">Envio de Mala Direta por Meio de Cartas e Etiquetas</li>
+									<li class="listStyleCustom">Integração com a Contabilidade</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="crm" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys6.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">CRM</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Ter a resposta para o cliente no momento prometido, saber atender cada solicitação e o
+									status das tarefas que ainda estão em aberto são algumas das nossas vantagens,
+									isso além do chat, cadastro de clientes e contatos, acompanhamento do suporte aos
+									clientes, pensando sempre na excelência do seu relacionamento com o cliente.
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Cadastro de Clientes e Contatos</li>
+									<li class="listStyleCustom">Gerencia Treinamentos</li>
+									<li class="listStyleCustom">Manutenção das Ocorrências dos Clientes</li>
+									<li class="listStyleCustom">Controle de Agendamento das Ocorrências e Relatórios de Apoio</li>
+									<li class="listStyleCustom">Acompanhamento do Suporte Aos Clientes</li>
+									<li class="listStyleCustom">Download e armazenamento do XML da NFe</li>
+									<li class="listStyleCustom">Publicação de Documentos</li>
+									<li class="listStyleCustom">Alertas de Vencimentos</li>
+									<li class="listStyleCustom">Registro de Atendimentos Efetuados com Históricos Detalhados</li>
+									<li class="listStyleCustom">Tudo Registrado via Emails e Protocolado nas Notificações do Usuário</li>
+									<li class="listStyleCustom">Totalmente Integrado com as Soluções Contábeis</li>
+									<li class="listStyleCustom">Aumento no Relacionamento com Cliente em Eficiência</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="cnd" class="blockCustom2 desabled">
+						<picture>
+							<img src="../../images/intsys/intsys7.svg" alt="" class="w-100">
+						</picture>
+						<div class="bgCustomLightBlue p-3">
+							<div>
+								<span class="titleCustom">CRM</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Conhecendo as dificuldades e demandas dos clientes contábeis, desenvolvemos essa ferramenta exclusiva
+									para emissão de certidões negativas de débito em qualquer órgão fiscalizador no Brasil,
+									focando no cliente e no que será sua necessidade. Na contra mão do que há no mercado,
+									essa ferramenta mostra como o usuário pode obter as suas certidões negativas mais exigidas.
+								</span>
+							</div>
+							<div class="mt-3">
+								<span class="textCustom">
+									Outra característica essencial, é que ela permite ao contador sugerir os links de acesso às CND´s
+									referentes aos seus estados e seus municípios incidentes na atuação.
+									Tudo pensado para reduzir a dificuldade dos escritórios e agilizar qualquer solução
+									dos problemas do cliente de uma maneira mais simples, sem nenhuma burocracia legal.
+								</span>
+							</div>
+							<div class="textCustom mt-2">
+								<ul class="listStyleCustomUL ml-5">
+									<li class="listStyleCustom">Verificação de Todas as Certidões Dentro de períodos predeterminados</li>
+									<li class="listStyleCustom">Personalização de Quais Certidões Devem ser Emitidas para Cada Empresa</li>
+									<li class="listStyleCustom">Armazenamento das Certidões por 5 anos</li>
+									<li class="listStyleCustom">Todos os Sites de Acesso as Certidões no Mesmo Ambiente</li>
+									<li class="listStyleCustom">Disponibilidade de Consulta Online em Qualquer Máquina ou Aparelho Móvel</li>
+									<li class="listStyleCustom">Alertas Regulares Sobre Novidades ou Problemas Relacionados</li>
+									<li class="listStyleCustom">Integração Total ao Sistema Contábil</li>
+									<li class="listStyleCustom">Sem Necessidade de Captcha ao Acessar os Sites</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="d-flex flex-column justify-content-center align-items-center">
+					<div class="mt-4 text-center">
+						<a href="../systems.html" class="linkCustom bgCustomBlue buttonCustom">Voltar aos sistemas.</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="bgCustomLightBlue text-center pt-3 pb-3 mt-4 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+			<div>
+				<span class="textCustom">© Todos os direitos reservados - InfoSulF - Rua Oitenta e Dois, 658 - Rústico - Volta Redonda - RJ - Brasil</span>
+			</div>
+			<div class="ml-lg-5 mt-2 mt-lg-0">
+				<span class="textCustom">Site desenvolvido por: <span class="textCustom timesNewRoman">Rafael Couto Silva</span></span>
+			</div>
+		</footer>
+		<script src="../../javascript/dom/showSistem.js"></script>
+		<script src="../../javascript/bootstrap/jquery.js"></script>
+		<script src="../../javascript/bootstrap/bootstrap.min.js"></script>
+		<script src="../../javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
