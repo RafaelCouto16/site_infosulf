@@ -3,7 +3,6 @@ const segments = [
 	{
 		phrase: "Para o ramo de vestuário, temos os seguintes sistemas a lhe oferecer:",
 		systems:[
-			partners[22],
 			partners[18],
 			partners[4],
 			partners[0],
@@ -42,7 +41,6 @@ const segments = [
 	{
 		phrase: "Para o ramo de acessórios, temos os seguintes sistemas a lhe oferecer:",
 		systems:[
-			partners[22],
 			partners[18],
 			partners[4],
 			partners[0],
@@ -188,7 +186,7 @@ const segments = [
 	},
 	//15 bares e restaurantes
 	{
-		phrase: "Para o ramo de bares e rastaurantes, temos os seguintes sistemas a lhe oferecer:",
+		phrase: "Para o ramo de bares e restaurantes, temos os seguintes sistemas a lhe oferecer:",
 		systems:[
 			partners[19],
 			partners[2],
@@ -297,7 +295,7 @@ const segments = [
 	},
 	//26 pecuaria
 	{
-		phrase: "Para o ramo de pecuaria, temos os seguintes sistemas a lhe oferecer:",
+		phrase: "Para o ramo de pecuária, temos os seguintes sistemas a lhe oferecer:",
 		systems:[
 			partners[6],
 			partners[8],
